@@ -4,16 +4,17 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
+		"test": "vitest",
 		"biome:format": "npx @biomejs/biome format --write",
 		"biome:lint": "npx @biomejs/biome lint --write",
-		"biome:check": "npx @biomejs/biome check --write --verbose",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"biome:check": "npx @biomejs/biome check --write --verbose"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"type": "module",
 	"devDependencies": {
-		"@biomejs/biome": "2.4.10"
+		"@biomejs/biome": "2.4.10",
+		"vitest": "^4.1.4"
 	}
 }
